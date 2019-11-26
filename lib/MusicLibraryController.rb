@@ -86,7 +86,7 @@ class MusicLibraryController
     input = ""
     puts "Which song number would you like to play?"
     input = gets.strip.to_i
-    
+    if 
 
 
   end
