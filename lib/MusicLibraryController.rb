@@ -88,7 +88,8 @@ class MusicLibraryController
     input = gets.strip.to_i
     if input > 0 && input<= Song.all.length
       array = Song.all.sort{|a,b| a.name <=> b.name}
-      song= input[-1]
+      song= array[input-1]
+      
     end
 
 
