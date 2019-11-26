@@ -61,6 +61,7 @@ class MusicLibraryController
     input = ""
     puts "Please enter the name of an artist:"
     input = gets.strip
+    list_artists
   end
 
 
