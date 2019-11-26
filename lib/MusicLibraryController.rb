@@ -62,7 +62,7 @@ class MusicLibraryController
     puts "Please enter the name of an artist:"
     input = gets.strip
 
-    if input
+    if artist = Artist.find
   end
 
 
